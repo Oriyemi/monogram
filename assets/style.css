@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.console{
+    position: relative;
+}
+.console img{
+  width: 100%;
+  height: auto;
+  background-image: cover;
+}
+.nav-bar{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:  97%;
+    background-color:#1A2456 ;
+    margin: 20px;
+
+}
+.navigate{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    padding:  0px 10px;
+
+}
+.navigate i{
+    color:#E28F74 ;
+    font-size: 40px;
+    
+}
+.navigate h1{
+    color:#E28F74 ;
+    font-size: 15px;
+    line-height: 10px;
+}
+.usd ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 10px;
+    
+}
+
+.usd ul li{
+    list-style: none;
+    color:#E28F74 ;
+    
+}
+ul i{
+    font-size: 20px;
+     color:#E28F74 ;
+}
+ul li i{
+   font-size: 10px; 
+}
+.banner {
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color:#E28F74 ;
+    text-align: center;
+    font-weight: bolder; 
+}
+.text h1{
+ font-size: 3em;
+ text-transform: uppercase;
+ font-weight: bolder;
+}
+.text p{
+  font-size: 1.5em;
+  font-weight: lighter;
+}
