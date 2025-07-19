@@ -178,3 +178,22 @@ ul li i{
     font-size: 20px;
     font-weight: lighter;
 }
+.slide-show{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 50px;
+}
+.showcase img{
+    width: 300PX;
+}
+ .showcase h1{
+    color: #1A2456;
+    font-size: 16px;
+    
+}
+.showcase h2{
+    color:#c9c8c5;
+    font-size: 16px;
+}
