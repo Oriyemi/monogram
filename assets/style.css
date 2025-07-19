@@ -89,6 +89,7 @@ ul li i{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
    
    
@@ -144,6 +145,7 @@ ul li i{
 }
 section{
     position: relative;
+    
 }
 .badge{
     position: absolute;
@@ -157,17 +159,15 @@ section{
     border-radius: 3px;
 }
 .keyboard{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:40rem;
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-   
-   
+    margin:0  120px;
 }
  .keyboard h1{
     color: #1A2456;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 20px;
     
 }
@@ -207,10 +207,14 @@ section{
 }
 .slide-show{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
     margin: 50px;
+}
+.showcase{
+   flex: 1 1 180px;  
 }
 .showcase img{
     width: 300PX;
@@ -278,7 +282,7 @@ footer{
 }
 .footer-monogram .social-icons a{
     margin-right: 10px;
-    color: #ccc;
+    color: #Efc2b3;;
     text-decoration: none;
     font-size: 20px;
 
@@ -290,5 +294,5 @@ footer{
     text-align: center;
     margin-top: 30px;
     font-size: 13px;
-    color: #aaa;
+    color: #Efc2b3;
 }
