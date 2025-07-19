@@ -3,10 +3,10 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-.console{
+.container{
     position: relative;
 }
-.console img{
+.container img{
   width: 100%;
   height: auto;
   background-image: cover;
@@ -80,4 +80,41 @@ ul li i{
 .text p{
   font-size: 1.5em;
   font-weight: lighter;
+ 
+}
+.slide{
+    margin-top: 30px;
+}
+.console{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+   
+}
+.console section img {
+    width: 500px;
+   
+}
+.device{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+ .console h1{
+    color: #1A2456;
+    font-size: 16px;
+    
+}
+.console h2{
+    color:#c9c8c5;
+    font-size: 16px;
+}
+.console p{
+   
+   color: #1A2456;
+    font-size: 16px; 
+
 }
