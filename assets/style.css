@@ -142,7 +142,7 @@ ul li i{
     font-size: 12px;
     padding: 4px 8px;
     font-weight: bold;
-    border-radius: 3px;
+    /* border-radius: 3px; */
 }
 section{
     position: relative;
@@ -157,7 +157,7 @@ section{
     font-size: 12px;
     padding: 4px 8px;
     font-weight: bold;
-    border-radius: 3px;
+    /* border-radius: 3px; */
 }
 .keyboard{
      display: flex;
