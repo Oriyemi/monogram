@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .container{
     position: relative;
@@ -9,7 +10,7 @@ body{
 .container img{
   width: 100%;
   height: auto;
-  background-image: cover;
+  /* background-image: cover; */
 }
 .nav-bar{
     position: absolute;
@@ -24,7 +25,7 @@ body{
 }
 .navigate{
     display: flex;
-    justify-content: end;
+    justify-content: end; 
     align-items: center;
     gap: 10px;
     margin: 20px;
@@ -33,7 +34,7 @@ body{
 }
 .navigate i{
     color:#E28F74 ;
-    font-size: 40px;
+    font-size: 20px;
     
 }
 .navigate h1{
@@ -70,10 +71,10 @@ ul li i{
     left: 30%;
     color:#E28F74 ;
     text-align: center;
-    font-weight: bolder; 
+    font-weight:500; 
 }
 .text h1{
- font-size: 3em;
+ font-size: 2.8em;
  text-transform: uppercase;
  font-weight: bolder;
 }
