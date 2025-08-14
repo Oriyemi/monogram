@@ -93,3 +93,76 @@ ul li i{
   font-weight: bolder;
  text-transform: uppercase;
 }
+.workflow{
+    position: relative;
+}
+
+.tab-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0efed;
+    height: 200px;
+   
+
+}
+.tab-container button{
+    /* margin-top: 10px; */
+    background: none;
+    border: none;
+    padding:14px ;
+    font-size: 1em;
+    color: #454044;
+    margin-bottom: 80px;
+    margin-top: 1opx;
+    border-top: 2px solid #454044 ;
+    border-bottom: 2px solid #454044  ;
+    /* border-left: 2px solid #454044; */
+}
+.tab-content{
+    background-color: #FF8D6B;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: #1A2456;
+    height: 300px;
+}
+.tab-content p{
+    max-width: 600px;
+    line-height: 1.5;
+    margin: 50px;
+    font-size: 1.07em;
+    font-weight: lighter;
+}
+.tab-content h2{
+    font-size: 28px ;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin: 50px;
+    text-transform: uppercase;
+}
+.image{
+    position: absolute;
+    left: 700px;
+}
+img{
+    width: 500px;
+    height: auto;
+    
+    
+}
+.tab-logo{
+    background-color:#f0efed;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0efed;
+    height: 200px;
+   
+}
+.tab-logo img{
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    /* height: 100%; */
+}
