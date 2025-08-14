@@ -156,7 +156,7 @@ img{
      display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0efed;
+    /* background-color: #f0efed; */
     height: 200px;
    
 }
@@ -190,6 +190,19 @@ img{
     font-weight: 600;
     margin: 50px;
     text-transform: uppercase;
+}
+.console{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 60px;
+    background-color: #f0efed ;
+
+}
+.image2{
+    width: 300px;
+    height: 100%;
 }
 
 
