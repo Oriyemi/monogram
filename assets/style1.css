@@ -15,7 +15,7 @@
 .container img{
   width: 100vw;
   height: 100vh;
-  /* background-image: cover; */
+
 }
 .nav-bar{
     position: fixed;
@@ -26,8 +26,7 @@
     z-index: 10;
     width:  97%;
     background-color:#1A2456 ;
-    /* margin: 20px; */
-
+  
 }
 .navigate{
     display: flex;
@@ -80,10 +79,8 @@ ul li i{
 }
 .text{
     position: absolute;
-    /* top: 30%;
-    left: 30%; */
+
     color:#fff ;
-    /* text-align: center; */
     font-weight:500; 
 }
 .text h1{
