@@ -166,3 +166,30 @@ img{
     margin-top: 10px;
     /* height: 100%; */
 }
+
+.flex-container{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 60px;
+    color: #1A2456 ;
+}
+.image1{
+    width: 800px;
+}
+.edit p{
+    max-width: 600px;
+    line-height: 1.5;
+    margin: 50px;
+    font-size: 1.em;
+    font-weight: lighter;
+}
+.edit h2{
+    font-size: 25px ;
+    margin-bottom: 15px;
+    font-weight: 600;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+
