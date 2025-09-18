@@ -107,7 +107,7 @@ ul li i{
     background-color: #f0efed;
     height: 200px;
    
-/* 
+
 }
 .tab-container button{
     /* margin-top: 10px; */
@@ -123,11 +123,11 @@ ul li i{
     /* border-left: 2px solid #454044; */
 }
 .tab-content{
-    background-color: #FF8D6B;
+    background-color: #5A7F71;
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    color: #1A2456;
+    color: #fff;
     height: 300px;
 }
 .tab-content p{
