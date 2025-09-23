@@ -15,6 +15,8 @@
 .container img{
   width: 100vw;
   height: 100vh;
+  object-fit: cover;
+ opacity: 1;
   /* background-image: cover; */
 }
 .nav-bar{
