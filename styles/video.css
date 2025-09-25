@@ -416,5 +416,94 @@ footer{
     font-size: 13px;
     color: #Efc2b3;
 } 
+/* 📱 Responsive styles */
+@media (max-width: 768px) {
+.text p{
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+.tab-content{
+    background-color:#F5B335 ;
+    height: 300px;
+
+}
+.touch{
+    margin: 70px;
+}
+.touch h3{
+    font-size: 28px ;
+    margin-bottom: 15px; 
+    color: #1A2456;
+     font-weight: 600;
+     text-transform: uppercase;
+
+}
+.flex-container{
+     display: flex;
+     flex-direction: column;
+    justify-content: space-evenly;
+    margin: 40px;
+    align-items: center;
+    color: #1A2456 ;
+
+}
+.flex-container img{
+  width: 500px;
+  margin-top: 20px;
+}
+.edit1 h2{
+    margin: 35px; 
+    font-size: 3opx;
+
+
+}
+.edit1 p{
+  line-height: 1.5em;
+    font-size: 0.9em;
+    color: #1A2456;
+    font-weight: lighter;
+    word-spacing: 10px;
+}
+.console{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 60px;
+    background-color: #f0efed ;
+
+}
+.footer-console{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 60px;
+    background-color:#1A2456 ;
+    color: #fff;
+
+}
+.footer-console h2{
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+.footer-console p{
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 30px;
+     margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+}
 
 

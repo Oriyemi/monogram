@@ -200,7 +200,6 @@ section{
   position: relative;
 }
 .images img{
- 
    width: 100%;
     height:500px;
 }
@@ -311,4 +310,18 @@ footer{
     margin-top: 30px;
     font-size: 13px;
     color: #Efc2b3;
+}
+@media (max-width: 768px) {
+
+.showcase img{
+    width: 600PX;
+    margin-top: 30px;
+}
+.create{
+    
+    left: 10%;
+   
+}
+
+
 }
