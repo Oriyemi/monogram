@@ -152,7 +152,7 @@ ul li i{
     border: solid #454044 2px;
 }
 .tab-content{
-    background-color:#FF8D6B;
+    background-color: #E28F74;
     display: flex;
     align-items: center;
     color: #fff;
@@ -414,6 +414,31 @@ footer{
 } 
 /* 📱 Responsive styles */
 @media (max-width: 768px) {
+.usd{
+    position: fixed;
+    top: 60px;
+    background-color:#1A2456;
+    width: 95%;
+    padding: 10px 0 25px;
+    transform: translateX(-110%);
+}
+ul{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.hamburger{
+    display: block;
+    cursor: pointer;
+}
+.bar{
+    height: 2px;
+    width: 27px;
+    background: #Efc2b3;
+    margin: 5px;
+    opacity: 0.8;
+}
 .text p{
   font-size: 55px;
   font-weight: bolder;
