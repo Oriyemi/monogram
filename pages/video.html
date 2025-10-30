@@ -4,33 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>video console</title>
-    <link rel="stylesheet" href="/styles/video.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <link rel="stylesheet" href="/styles/video.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section>
         <main>
-             <div class="container">
-              <img src="/assets/images/imgi_12_mono_poster_3_9ef8a113f6.webp" alt="background">
-              <div class="text">
-                    <h1> Workflow</h1>
-                    <p>Video  Editing and Color</p>
-                 </div>
-              <div class="nav-bar">
-                 <div class="navigate">
+               <div class=" relative flex flex-col justify-center items-center w-full ">
+                <img src="/assets/images/imgi_12_mono_poster_3_9ef8a113f6.webp" alt="background" class=" object-cover  w-full max-h-[80vh] ">
+              <div class=" absolute uppercase text-white tracking-widest ">
+                    <h1 class="text-[45px] font-light" > Workflow</h1>
+                    <p class="text-[38px] font-bold ">Video Editing and Color</p>
+              </div>
+            </div>
+         <div class="relative flex justify-center items-center ">
+              <div class="fixed flex justify-between items-center bg-[#1a2456] top-5 w-[97%] z-10 p-2">
+                 <div class="flex justify-end items-center py-0 px-0 text-[#Efc2b3] gap-x-2">
 
                  <h1>MONOGRAM</h1>
                  </div>
-                 <div class="usd">
-                   <ul>
-                     <li>HOW ITS WORKS </li>
-                     <li>WORKFLOWS  <i class="fa fa-caret-down" aria-hidden="true"></i></li>
-                     <li>DOWNLOAD</li>
-                     <li>WORKS</li>
-                     <li>SUPPORT</li>
-                     <li>SHOP</li>
+                 <div class="">
+                   <ul class="hidden lg:flex justify-between px-5 py-1  text-[#Efc2b3] list-none hover:text-[#Efc2b3] space-x-6  ">
+                     <li ><a href="#" class="text-[#Efc2b3] text-[12px] no-underline"></a>HOW ITS WORKS</a> </li> 
+                     <li class="list-active"><a href="#"class="text-[#Efc2b3] text-[12px] no-underline "></a>WORKFLOWS </a> <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                     <li ><a href="#"class="text-[#Efc2b3] text-[12px] no-underline"></a>DOWNLOAD</a></li>
+                     <li ><a href="#" class="text-[#Efc2b3] text-[12px] no-underline"></a>WORKS</a></li>
+                     <li ><a href="#"class="text-[#Efc2b3] text-[12px] no-underline "></a>SUPPORT</a></li>
+                     <li><a href="#"class="text-[#Efc2b3] text-[12px] no-underline "></a>SHOP</a></li>
                       <i class="fa fa-shopping-bag" aria-hidden="true" ></i>
-                     <li>USD  <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                     <li><a href="#"class="text-[#Efc2b3] text-[12px] no-underline"></a>USD </a> <i class="fa fa-caret-down" aria-hidden="true"></i></li>
                    </ul>
                  </div>
                   <!-- hamburger -->
@@ -47,68 +50,67 @@
                    
         
             <div class="worflow">
-                <div class="tab-container">
-                   <a href="#" class="tab ">AUDIO CONSOLE</a>
-                   <a href="#" class="tab">PHOTO CONSOLE</a>
-                   <a href="#" class="tab active ">VIDEO CONSOLE</a>
-                   <a href="#" class="tab">MINI CONSOLE</a>
-
+                 <div class="flex justify-center items-center p-[ 0 10px] gap-5 bg-[#f0efed] h-[200px]  border-t-[1px] border-b-[1px] border-[#454044]">
+                   <a href="#" class="relative no-underline text-[#454044] font-bold py-0 px-3 border-r-[1px] border-[#454044 ]">AUDIO CONSOLE</a>
+                   <a href="#" class="relative no-underline text-[#454044] font-semibold py-0 px-3 border-r-[1px] border-[#454044 ]">PHOTO CONSOLE</a>
+                   <a href="#" class="relative no-underline text-[#454044] font-semibold py-0 px-3 border-r-[1px] border-[#454044 ] ">VIDEO CONSOLE</a>
+                   <a href="#" class="relative no-underline text-[#454044] font-semibold py-0 px-3 border-r-[1px] border-[#454044 ]">MINI CONSOLE</a>
                 </div>
-                <div class="tab-content">
-                    <div class="touch">
-                        <h3>Engage with your Storytelling</h3>
-                        <p class="paragraph">Video Console is a powerful tool that gives you the flexibility to both edit and color grade with unmatched precision.</p>
+                <div class="flex bg-[#5A7F71] items-center h-[300px] text-white">
+                    <div class="m-[50px]">
+                        <h3 class="mb-[15px] font-bold uppercase text-[28px]">Engage with your Storytelling</h3>
+                        <p class="text-[#1A2456] text-[0.9em] font-light max-w-[600px] tracking-tighter">Video Console is a powerful tool that gives you the flexibility to both edit and color grade with unmatched precision.</p>
                     </div>
-                    <div class="image">
-                        <img src="/assets/images/imgi_13_workflow_header_video_2_0104eb76ff.webp" alt=" vid">
+                    <div class="absolute left-[700px] bg-no-repeat">
+                        <img src="/assets/images/imgi_13_workflow_header_video_2_0104eb76ff.webp" alt=" vid" class="bg-no-repeat w-[500px] h-auto">
                     </div>
                 </div>
-                <div class="tab-logo">
-                    <img src="/assets/images/imgi_3_premierepro_941d31ce25.webp" alt="logo" style="border:20px solid #5A7F71; border-radius: 30px;">
-                    <img src="/assets/images/imgi_14_final_cut_b47ac07e5e.webp" alt="logo">
+                <div class="bg-[#f0efed] flex justify-center items-center h-[200px]">
+                    <img src="/assets/images/imgi_3_premierepro_941d31ce25.webp" alt="logo" style="border:20px solid #5A7F71; border-radius: 30px;"class="w-[100px] p-3 mt-2">
+                    <img src="/assets/images/imgi_14_final_cut_b47ac07e5e.webp" alt="logo" class="w-[100px] p-3 mt-2">
                 </div>
             </div>
             <div class="catalogue">
                 <div class="tab-content1">
-                    <div class="flex-container">
+                    <div class="flex justify-evenly items-center mt-[40px] text-[A2456] md:flex-row sm:flex flex-col">
                         <div class="image1">
-                          <img src="/assets/images/imgi_15_PR_Clip_Control_f920bd37d9.webp" alt="pic">
+                          <img src="/assets/images/imgi_15_PR_Clip_Control_f920bd37d9.webp" alt="pic" class="max-w-[1500px] w-[600px]">
                        </div>
-                      <div class="edit1">
-                        <h2>INTUITIVE CLIP ANIMATION AND CLIP MOTION</h2>
-                        <p>Add and remove effects and looks across your timeline with one press. Control clip position, rotation, scale, and opacity. Streamline clip animation with auto-keyframing features that are built right in.</p>
+                      <div class="max-w-[400px]">
+                        <h2 class="text-[28px] mb-[15px] font-bold">INTUITIVE CLIP ANIMATION AND CLIP MOTION</h2>
+                        <p class="text-[0.9em] text-[#1A2456] font-light leading-6 ">Add and remove effects and looks across your timeline with one press. Control clip position, rotation, scale, and opacity. Streamline clip animation with auto-keyframing features that are built right in.</p>
                      </div>
                     </div>
 
 
-                   <div class="flex-container">
-                     <div class="edit1">
-                        <h2>DEDICATED JOG WHEEL MODULE</h2>
-                        <p>Orbiter’s high resolution optical encoder jog wheel with adjustable sensitivity and acceleration lets you quickly scrub through long clips and precisely navigate frame by frame.</p>
+                   <div class="flex justify-evenly items-center mt-[40px] text-[A2456] md:flex-row sm:flex flex-col">
+                     <div class="max-w-[400px]">
+                        <h2 class="text-[28px] mb-[15px] font-bold">DEDICATED JOG WHEEL MODULE</h2>
+                        <p class="text-[0.9em] text-[#1A2456] font-light leading-6 ">Orbiter’s high resolution optical encoder jog wheel with adjustable sensitivity and acceleration lets you quickly scrub through long clips and precisely navigate frame by frame.</p>
                      </div>
                      <div class="image1">
-                        <img src="/assets/images/imgi_16_PR_Jog_db360867c0.webp" alt="pic">
+                        <img src="/assets/images/imgi_16_PR_Jog_db360867c0.webp" alt="pic" class="max-w-[1500px] w-[600px]">
                      </div>
                    </div>
 
 
-                    <div class="flex-container">
+                    <div class="flex justify-evenly items-center mt-[40px] text-[A2456] md:flex-row sm:flex flex-col">
                         <div class="image1">
-                           <img src="/assets/images/imgi_16_PR_Jog_db360867c0.webp" alt="pic">
+                           <img src="/assets/images/imgi_16_PR_Jog_db360867c0.webp" alt="pic" class="max-w-[1500px] w-[600px]">
                        </div>
-                      <div class="edit1">
-                        <h2>FULL TRANSPORT AND EDIT CONTROL SUPPORT</h2>
-                        <p>Use Essential Keys for transport controls like shuttle, play/pause or use to jump between edit points, set in and out points, or razor and ripple delete selected clips without changing your active tool.</p>
+                      <div class="max-w-[400px]">
+                        <h2 class="text-[28px] mb-[15px] font-bold">FULL TRANSPORT AND EDIT CONTROL SUPPORT</h2>
+                        <p class="text-[0.9em] text-[#1A2456] font-light leading-6 ">Use Essential Keys for transport controls like shuttle, play/pause or use to jump between edit points, set in and out points, or razor and ripple delete selected clips without changing your active tool.</p>
                      </div>
                     </div>
 
-                     <div class="flex-container">
-                      <div class="edit1">
-                        <h2>DYNAMIC AUDIO CONTROL</h2>
-                        <p>Streamline the entire audio editing process and quickly auto-keyframe clip volume, control volume, pan automation, and track mixer tools with the completely customizable video editing controlle.</p>
+                     <div class="flex justify-evenly items-center mt-[40px] text-[A2456] md:flex-row sm:flex flex-col">
+                      <div class="max-w-[400px]">
+                        <h2 class="text-[28px] mb-[15px] font-bold">DYNAMIC AUDIO CONTROL</h2>
+                        <p class="text-[0.9em] text-[#1A2456] font-light leading-6 ">Streamline the entire audio editing process and quickly auto-keyframe clip volume, control volume, pan automation, and track mixer tools with the completely customizable video editing controlle.</p>
                       </div>
                        <div class="image1">
-                          <img src="/assets/images/imgi_9_PR_Audio_79b5f36acf.webp" alt="pic">
+                          <img src="/assets/images/imgi_9_PR_Audio_79b5f36acf.webp" alt="pic" class="max-w-[1500px] w-[600px]">
                        </div>
                     </div>
                     
@@ -116,25 +118,25 @@
                 </div>
                
             </div>
-          <div class="console">
+          <div class="flex justify-center items-center bg-[#f0efed] px-10 py-[60px] gap-5 md:flex-row sm:flex flex-col ">
                 <div class="product-image">
-                    <img src="/assets/images/imgi_41_Packaging_MasterClosedBracket1_Monogram_May20204494_1080x720_crop_center.jpg.webp" alt="pic">
+                    <img src="/assets/images/imgi_41_Packaging_MasterClosedBracket1_Monogram_May20204494_1080x720_crop_center.jpg.webp" alt="pic"  class="w-[400px] h-[200px] opacity-100 object-cover ml-[70px]  ">
                 </div>
-             <div class="product-details">
-                 <h2>VIDEO CONSOLE <span class="badge">PRE-ORDER</span></h2>
+             <div class="flex-1 ml-[50] mt-4">
+                 <h2>VIDEO CONSOLE <span class="bg-[#FF8D6B] text-white py-1 px-2 rounded ml-[10px] text-[0.9rem]">PRE-ORDER</span></h2>
                   <div>
-                      <span class="price">$899</span>
-                     <span class="old-price">$1,281</span>
+                      <span class="text-[1.5rem] text-[#FF8D6B]">$899</span>
+                     <span class="ml-[10px] text-gray-500 line-through">$1,281</span>
                  </div>
-               <div class="rating">⭐⭐⭐⭐ <small>(100)</small></div>
-               <div class="installment">or 4 interest-free payments of $224.75 with <strong>sezzle</strong></div>
+               <div class="my-10px mx-0">⭐⭐⭐⭐ <small>(100)</small></div>
+               <div class="text-[0.9rem] text-gray-500">or 4 interest-free payments of $224.75 with <strong>sezzle</strong></div>
 
-               <div class="label">
-                  <input type="number" value="1" min="1" style="width: 80px;">
-                  <input type="number" value="1" min="1" style="width: 50px;">
-                 <button class="sold-out">SOLD OUT </button>
+               <div class="my-4 mx-0">
+                  <input type="number" value="1" min="1" style="width: 80px;" class="rounded-[30px] h-6 border-none">
+                  <input type="number" value="1" min="1" style="width: 50px;" class="rounded-[30px] h-6 border-none">
+                 <button class="bg-[#656B8B] text-white py-2 px-5 rounded-[30px]">SOLD OUT </button>
                </div>
-               <div class="notice">**Pre-orders will resumeonce current batch is shipped**</div>
+               <div class="text-[0.85rem] mt-[10px] font-sans">**Pre-orders will resumeonce current batch is shipped**</div>
                <br>
                <br>
                <p>This all-access console is the ultimate video editing and color grading tool. Three tactile Orbiter modules with oversized encoder rings are the perfect asset for multi-dimensional adjustments, timeline navigation, or color grading. Experience the better editing difference of simple yet powerful, purpose-built controls. </p>
@@ -144,11 +146,11 @@
              </div>
          </div>
           <footer>
-            <div class="footer-console">
-                <img src="/assets/images/imgi_287_SW-box-render-mini-video-final-august_1920x1382_crop_center.jpg.webp" alt="pic">
+            <div class="flex justify-center items-center bg-[#1A2456] text-white gap-5 px-10 py-[60px] md:flex-row sm:flex flex-col">
+                <img src="/assets/images/imgi_287_SW-box-render-mini-video-final-august_1920x1382_crop_center.jpg.webp" alt="pic" class="w-[600px] h-[900px] opacity-100 object-cover">
                 <div footer-text>
-                    <h2>Video Pack (Included)</h2>
-                    <p> 
+                    <h2 class="uppercase text-[2em] mb-[10px] mt-[50px]"></h2>>Video Pack (Included)</h2>
+                    <p  class="text-[16px] leading-5 font-light"> 
                         Add an entirely new category of abilities to your Console. 4 high-performance plugins developed by Monogram in collaboration with Adobe. Built with deep API integrations, achieving speed, reliability and functionality that are otherwise impossible with shortcuts alone. Total of 500+ functions.
 
                         <br>
@@ -195,57 +197,82 @@
                     </p>
 
                 </div>
-            </div>
-            <div class="footer-monogram">
-                <h1>MONOGRAM</h1>
+            </div> 
+                 <div class="bg-[#1a2456] flex justify-between items-center text-[#fff] md:flex flex-wrap p-5">
+                 <div class=" flex-1 min-w-[180px] bg-[#1a2456]">
+                <h1 class="text-base mb-2">MONOGRAM</h1>
                 <p>305 KingSt.W. <br> suite 502 <br> kitchener,ON <br> canada </p>
             </div>
-            <div class="footer-monogram">
-                <h1>QUICKLINKS</h1>
-                <ul>
-                    <li>home</li>
-                    <li>how it works</li>
-                    <li>shop</li>
-                    <li>download</li>
-                </ul>
+
+
+            <div class="footer-monogram flex-1 min-w-[180px] p-3">
+            <h1 class="text-base mb-2">QUICKLINKS</h1>
+           <ul class="list-none p-0 m-0">
+            <li class="mb-2 capitalize hover:text-white">home </li>
+            <li class="mb-2 capitalize hover:text-white">how it works</li>
+           <li class="mb-2 capitalize hover:text-white">download</li>
+           </ul>
+          </div>
+
+
+            <div class="footer-monogram flex-1 min-w-[180px] p-3">
+            <h1 class="text-base mb-2">HELP</h1>
+            <ul class="list-none p-0 m-0">
+            <li class="mb-2 capitalize hover:text-white">FAQ </li>
+            <li class="mb-2 capitalize hover:text-white">support</li>
+            <li class="mb-2 capitalize hover:text-white">shipping and sale</li>
+           </ul>
+          </div>
+            <!-- Section 1 -->
+          <div class="footer-monogram flex-1 min-w-[180px] p-3">
+          <h1 class="text-base mb-2">INFORMATION</h1>
+          <ul class="list-none p-0 m-0">
+          <li class="mb-2 capitalize hover:text-white">about us</li>
+          <li class="mb-2 capitalize hover:text-white">work with us</li>
+          <li class="mb-2 capitalize hover:text-white">privacy</li>
+          <li class="mb-2 capitalize hover:text-white">terms of use</li>
+          <li class="mb-2 capitalize hover:text-white">terms of sale</li>
+          <li class="mb-2 capitalize hover:text-white">press kit</li></ul>
+         </div>
+            <!-- FOOTER SUBCRIBE -->
+             <div class="footer-monogram flex-1 min-w-[180px] p-3">
+             <h1 class="text-base mb-2">SUBSCRIBE TO MONOGRAM</h1>
+              <p>master productivity with creative console and get all the lastest monogram news </p>
+             <form class="flex flex-col">
+              <input
+              type="email"
+              placeholder="Enter your email"
+              class="p-2 rounded mb-2 border-none outline-none"
+              />
+             <button class="bg-[#ffa500] border-none text-black p-2 rounded">
+                SUBMIT
+              </button>
+             </form>
+         </div>
+
+                  
+            <div class="footer-monogram flex-1 min-w-[180px]">
+           <h1 class="text-base mb-2">Follow Us</h1> 
+           <div class="social-icons flex">
+           <a href="#" class="mr-3 text-[#Efc2b3] text-[20px] no-underline hover:text-white">
+           <i class="fab fa-facebook"></i>
+            </a>
+           <a href="#" class="mr-3 text-[#Efc2b3] text-[20px] no-underline hover:text-white">
+            <i class="fab fa-twitter"></i>
+           </a>
+          <a href="#" class="mr-3 text-[#Efc2b3] text-[20px] no-underline hover:text-white">
+         <i class="fab fa-instagram"></i>
+         </a>
+       </div>
             </div>
-            <div class="footer-monogram">
-                <h1>HELP</h1>
-                <ul>
-                    <li>FAQ</li>
-                    <li>support center</li>
-                    <li>shipping and sales</li>
-                </ul>
-            </div>
-            <div class="footer-monogram">
-                <h1>INFORMATION</h1>
-                <ul>
-                    <li>about us</li>
-                    <li>work with us</li>
-                    <li>privacy policy </li>
-                    <li>terms of use</li>
-                    <li>terms of sale</li>
-                    <li>press kit</li>
-                </ul>
-            </div>
-            <div class="footer-monogram">
-                <h1>SUBSCRIBE TO MONOGRAM</h1>
-                <p>master productivity with creative console and get all the lastest monogram news </p>
-                <form action="#">
-                    <input type="email" placeholder="Email Address">
-                    <button type="submit">SUBMIT</button>
-                </form>
-                <div class="social-icons">
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                </div>
-                <p class="copyright">Monogram 2025</p>
-            </div>
-            
+  
 
            </footer>  
+           <div class="text-center pt-4    text-xs text-[#Efc2b3] bg-[#1a2456]">
+                 © 2025 Your Company. All rights reserved.
+                </div>
+           
+
            
 
         </main>
